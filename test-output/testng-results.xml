@@ -1,279 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-02T20:25:04 CDT" name="Suite" finished-at="2025-10-02T20:27:26 CDT" duration-ms="141883">
+  <suite started-at="2025-10-02T22:28:02 CDT" name="Default suite" finished-at="2025-10-02T22:28:14 CDT" duration-ms="12089">
     <groups>
-      <group name="regression1">
-        <method signature="LoginTest.validatusershouldtoLogin()[pri:5, instance:test.LoginTest@19e4653c]" name="validatusershouldtoLogin" class="test.LoginTest"/>
-      </group> <!-- regression1 -->
-      <group name="smoke">
-        <method signature="LoginTest.validatUserNameEmptyMSG()[pri:1, instance:test.LoginTest@19e4653c]" name="validatUserNameEmptyMSG" class="test.LoginTest"/>
-        <method signature="LoginTest.validatPasswordEmptyMSG()[pri:2, instance:test.LoginTest@19e4653c]" name="validatPasswordEmptyMSG" class="test.LoginTest"/>
-        <method signature="LoginTest.LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" name="LoginUsingDifRole" class="test.LoginTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-10-02T20:25:04 CDT" name="Test" finished-at="2025-10-02T20:27:26 CDT" duration-ms="141883">
-      <class name="test.ProductTest">
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:30 CDT" name="BeforeRun" finished-at="2025-10-02T20:25:34 CDT" duration-ms="3960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="CustomerShouldAddItemstoCart()[pri:1, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:34 CDT" name="CustomerShouldAddItemstoCart" finished-at="2025-10-02T20:25:35 CDT" duration-ms="1529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomerShouldAddItemstoCart -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:35 CDT" name="AfterRun" finished-at="2025-10-02T20:25:42 CDT" duration-ms="6896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:42 CDT" name="BeforeRun" finished-at="2025-10-02T20:25:48 CDT" duration-ms="5728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="CustomerShouldLoginThenLogOut()[pri:2, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:48 CDT" name="CustomerShouldLoginThenLogOut" finished-at="2025-10-02T20:25:49 CDT" duration-ms="1033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomerShouldLoginThenLogOut -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.ProductTest@663c9e7a]" started-at="2025-10-02T20:25:49 CDT" name="AfterRun" finished-at="2025-10-02T20:25:50 CDT" duration-ms="1148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-      </class> <!-- test.ProductTest -->
-      <class name="test.LoginTest">
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:25:50 CDT" name="BeforeRun" finished-at="2025-10-02T20:25:54 CDT" duration-ms="3741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="validatUserNameEmptyMSG()[pri:1, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:25:54 CDT" name="validatUserNameEmptyMSG" finished-at="2025-10-02T20:25:55 CDT" duration-ms="700" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatUserNameEmptyMSG -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:25:55 CDT" name="AfterRun" finished-at="2025-10-02T20:25:55 CDT" duration-ms="647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:25:55 CDT" name="BeforeRun" finished-at="2025-10-02T20:25:59 CDT" duration-ms="3942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="validatPasswordEmptyMSG()[pri:2, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:25:59 CDT" name="validatPasswordEmptyMSG" finished-at="2025-10-02T20:26:00 CDT" duration-ms="731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatPasswordEmptyMSG -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:00 CDT" name="AfterRun" finished-at="2025-10-02T20:26:01 CDT" duration-ms="942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:01 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:07 CDT" duration-ms="6405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="validatWrongusernametoLogin()[pri:3, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:07 CDT" name="validatWrongusernametoLogin" finished-at="2025-10-02T20:26:08 CDT" duration-ms="826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatWrongusernametoLogin -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:08 CDT" name="AfterRun" finished-at="2025-10-02T20:26:09 CDT" duration-ms="871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:09 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:14 CDT" duration-ms="4827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="validatWrongpasswordtoLogin()[pri:4, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:14 CDT" name="validatWrongpasswordtoLogin" finished-at="2025-10-02T20:26:15 CDT" duration-ms="799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatWrongpasswordtoLogin -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:15 CDT" name="AfterRun" finished-at="2025-10-02T20:26:15 CDT" duration-ms="667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:15 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:20 CDT" duration-ms="5016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="validatusershouldtoLogin()[pri:5, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:20 CDT" name="validatusershouldtoLogin" finished-at="2025-10-02T20:26:21 CDT" duration-ms="889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatusershouldtoLogin -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:21 CDT" name="AfterRun" finished-at="2025-10-02T20:26:22 CDT" duration-ms="702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:22 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:26 CDT" duration-ms="3872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:26 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:26 CDT" duration-ms="462" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:26 CDT" name="AfterRun" finished-at="2025-10-02T20:26:27 CDT" duration-ms="753" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:27 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:33 CDT" duration-ms="6042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:33 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:34 CDT" duration-ms="556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:34 CDT" name="AfterRun" finished-at="2025-10-02T20:26:34 CDT" duration-ms="771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:34 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:38 CDT" duration-ms="3846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:38 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:39 CDT" duration-ms="484" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:39 CDT" name="AfterRun" finished-at="2025-10-02T20:26:39 CDT" duration-ms="706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:39 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:45 CDT" duration-ms="5098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:45 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:45 CDT" duration-ms="511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:45 CDT" name="AfterRun" finished-at="2025-10-02T20:26:46 CDT" duration-ms="616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:46 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:51 CDT" duration-ms="5583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:51 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:52 CDT" duration-ms="455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[error_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:52 CDT" name="AfterRun" finished-at="2025-10-02T20:26:52 CDT" duration-ms="754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:53 CDT" name="BeforeRun" finished-at="2025-10-02T20:26:58 CDT" duration-ms="5905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="LoginUsingDifRole(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:58 CDT" name="LoginUsingDifRole" data-provider="loginDataDifRole" finished-at="2025-10-02T20:26:59 CDT" duration-ms="448" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[visual_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUsingDifRole -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.LoginTest@19e4653c]" started-at="2025-10-02T20:26:59 CDT" name="AfterRun" finished-at="2025-10-02T20:27:00 CDT" duration-ms="842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-      </class> <!-- test.LoginTest -->
+    <test started-at="2025-10-02T22:28:02 CDT" name="Default test" finished-at="2025-10-02T22:28:14 CDT" duration-ms="12089">
       <class name="test.CartTest">
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.CartTest@3646a422]" started-at="2025-10-02T20:25:04 CDT" name="BeforeRun" finished-at="2025-10-02T20:25:11 CDT" duration-ms="7249" status="PASS">
+        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.CartTest@3012646b]" started-at="2025-10-02T22:28:02 CDT" name="BeforeRun" finished-at="2025-10-02T22:28:06 CDT" duration-ms="3826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeRun -->
-        <test-method signature="CustomerShouldgotoCartPage()[pri:0, instance:test.CartTest@3646a422]" started-at="2025-10-02T20:25:11 CDT" name="CustomerShouldgotoCartPage" finished-at="2025-10-02T20:25:29 CDT" duration-ms="17744" status="PASS">
+        <test-method signature="CustomerShouldgotoCartPage()[pri:0, instance:test.CartTest@3012646b]" started-at="2025-10-02T22:28:06 CDT" name="CustomerShouldgotoCartPage" finished-at="2025-10-02T22:28:13 CDT" duration-ms="7495" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page not Found expected [Your Cart] but found [Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page not Found expected [Your Cart] but found [Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at test.CartTest.CustomerShouldgotoCartPage(CartTest.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerShouldgotoCartPage -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.CartTest@3646a422]" started-at="2025-10-02T20:25:29 CDT" name="AfterRun" finished-at="2025-10-02T20:25:30 CDT" duration-ms="790" status="PASS">
+        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.CartTest@3012646b]" started-at="2025-10-02T22:28:13 CDT" name="AfterRun" finished-at="2025-10-02T22:28:14 CDT" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterRun -->
       </class> <!-- test.CartTest -->
-      <class name="test.CheckoutTest">
-        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:test.CheckoutTest@795509d9]" started-at="2025-10-02T20:27:00 CDT" name="BeforeRun" finished-at="2025-10-02T20:27:04 CDT" duration-ms="4632" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeRun -->
-        <test-method signature="CustomerShouldCheckout()[pri:0, instance:test.CheckoutTest@795509d9]" started-at="2025-10-02T20:27:04 CDT" name="CustomerShouldCheckout" finished-at="2025-10-02T20:27:25 CDT" duration-ms="20839" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomerShouldCheckout -->
-        <test-method is-config="true" signature="AfterRun()[pri:0, instance:test.CheckoutTest@795509d9]" started-at="2025-10-02T20:27:25 CDT" name="AfterRun" finished-at="2025-10-02T20:27:26 CDT" duration-ms="693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-      </class> <!-- test.CheckoutTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

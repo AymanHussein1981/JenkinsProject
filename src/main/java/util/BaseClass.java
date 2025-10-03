@@ -3,6 +3,7 @@ package util;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 
@@ -16,8 +17,8 @@ public class BaseClass extends Propertie{
 		
 		Prop();
 		
-		System.setProperty("webdriver.edge.driver", "driver\\msedgedriver.exe");
-		driver=new EdgeDriver();
+		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
+		driver=new ChromeDriver();
 		driver.get(URL);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
